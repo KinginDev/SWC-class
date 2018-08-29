@@ -1,0 +1,8 @@
+.clickedButton {
+    padding: 20px;
+    outline: none;
+    border: 1px solid #eee;
+    background: red;
+    margin: 20px;
+    color: white;
+}
