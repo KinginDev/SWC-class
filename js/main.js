@@ -19,10 +19,22 @@ var button = document.getElementById('myButton');
 //listen to the click event and return a callback
 button.addEventListener('click', function(){
     //log into the console
-    console.log('I am a clicked button')
+   // console.log('I am a clicked button')
    //change the css properties of the button
    //this.style.backgroundColor = 'red';
     this.className = 'clickedButton'
     
 });
+
+/*
+* jQuery
+*/
+
+//const pTag =  $('p'); 
+//console.log(pTag);
+
+//Listen to click event
+$('#myButton2').click(function(){
+    $(this).addClass('clickedButton');
+})
 
